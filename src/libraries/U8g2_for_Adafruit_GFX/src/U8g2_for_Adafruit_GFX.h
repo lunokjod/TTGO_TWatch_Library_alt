@@ -38,7 +38,7 @@
 #ifndef U8g2_for_Adafruit_GFX_h
 #define U8g2_for_Adafruit_GFX_h
 
-#include "../../TFT_eSPI/TFT_eSPI.h"
+#include <TFT_eSPI.h>
 #include "../../Adafruit-GFX-Library/Adafruit_GFX.h"
 #include "u8g2_fonts.h"
 

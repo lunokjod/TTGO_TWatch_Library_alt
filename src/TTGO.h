@@ -48,6 +48,7 @@ typedef FocalTech_Class CapacitiveTouch ;
 #endif
 #else   //EXTERNAL_TFT_ESPI_LIBRARY
 #include <TFT_eSPI.h>
+TFT_eSPI *tft = nullptr;
 #endif  /*EXTERNAL_TFT_ESPI_LIBRARY*/
 
 #ifdef LILYGO_WATCH_HAS_BMA423
